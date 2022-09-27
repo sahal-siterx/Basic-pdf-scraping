@@ -122,7 +122,3 @@ class ResumeScraper:
         with open(file_name, 'w') as json_file:
             json.dump(self.person_data, json_file, indent=4)
 
-
-a = ResumeScraper('sahal_resume.pdf')
-a.get_pdf_text()
-a.get_personal_info()
